@@ -1,14 +1,11 @@
 #include <windows.h>
 #include <windowsx.h>
 #include <iostream>
-#include <Shlwapi.h>
 #include <fstream>
 #include <vector>
 #include <string>
 #include "json/json.h"
 #include "Fractal.h"
-#include "opencl.h"
-#include "CL/cl.h"
 
 LRESULT CALLBACK WindowsProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
 
